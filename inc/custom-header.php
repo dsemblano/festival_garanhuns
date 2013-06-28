@@ -62,8 +62,8 @@ function garanhuns_header_style() {
 	?>
 		.site-title,
 		.site-description {
-			position: absolute;
-			clip: rect(1px, 1px, 1px, 1px);
+			/*position: absolute;*/
+			/*clip: rect(1px, 1px, 1px, 1px);*/
 		}
 	<?php
 		// If the user has set a custom color for the text use that
