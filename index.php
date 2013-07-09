@@ -14,7 +14,11 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area meio">
+	
 		<div id="content" class="site-content" role="main">
+		
+		<span class="imagem_busca"></span>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : ?><?php endif; ?>
 		
 			<?php 
 			$args = array( 'post_type' => 'comida', 'posts_per_page' => 10 );
@@ -26,8 +30,15 @@ get_header(); ?>
 				echo '</div>';
 			endwhile;
 			?>
+			<?php //get_template_part('roteiro'); ?>
+			<?php //get_template_part('roteiro'); ?>
 			
-		</div><!-- #content -->	
+		</div><!-- #content -->
+		
+		<div id="ultimas" class="site-content" role="main">
+		
+		</div>
+		
 		<?php get_template_part('sidebar'); ?><!-- #sidebar direita -->
 		
 	</div><!-- #primary -->	

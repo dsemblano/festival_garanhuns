@@ -1,0 +1,13 @@
+<form method="get" action="{{base-url}}" class="taxonomy-drilldown-dropdowns">
+	<ul>
+		{{#taxonomy}}
+		<li>			
+			<select id="qmt-{{name}}" name="{{name}}">
+				<option value=''>Escolha uma categoria</option>
+				{{{term-list}}}
+			</select>
+		</li>
+		{{/taxonomy}}
+	</ul>
+		<input type="submit" value="OK" />
+</form>

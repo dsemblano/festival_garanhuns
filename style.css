@@ -670,6 +670,46 @@ header img#cachecol {
 	width: 13%;
 }
 
+/* Busca por taxonomia */
+
+span.imagem_busca {
+	background-color: red;
+	float: left;
+	height: 5px;
+	width: 100%;
+}
+
+aside#taxonomy-drill-down-2 {
+    background-color: #007CD6;
+	color: #FFFFFF;
+	height: 40px;
+	margin: 0;
+	padding: 10px 15px 0;
+	-webkit-border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+aside#taxonomy-drill-down-2 .widget-title {
+	float: left;
+}
+
+aside#taxonomy-drill-down-2 form  {
+	float: right;
+}
+
+aside#taxonomy-drill-down-2 form ul {
+	float: left;
+	margin: 0;
+}
+
+aside#taxonomy-drill-down-2 form ul li {
+	
+}
+
+aside#taxonomy-drill-down-2 form input {
+	margin-left: 20px;
+}
+
 .site-title {
 	display: none;
 }
@@ -684,7 +724,7 @@ header img#cachecol {
 	color: #EE811F;
 	display: inline-block;
 	font-family: hvd_comic_serif_proregular;
-	font-size: 3em;
+	font-size: 2.5em;
 	position: absolute;
 	text-align: center;
 	top: 30px;

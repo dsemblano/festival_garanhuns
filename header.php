@@ -36,6 +36,6 @@
 			<h2 class="site-description justified"><?php bloginfo( 'description' ); ?></h2>		
 			<img id="cachecol" class="justified" src="<?php echo get_template_directory_uri(); ?>/assets/cachecol.png" alt="imagem cachecol">
 		</a>
-	</header><!-- #masthead -->
+	</header><!-- #masthead -->	
 
 	<div id="main" class="site-main">
