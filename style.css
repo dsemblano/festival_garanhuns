@@ -657,6 +657,7 @@ header#masthead {
 	background-image: url("assets/nuvem.png");
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
+	background-size: 22em auto;
 	animation: animatedBackground 40s linear infinite;
 	-ms-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
