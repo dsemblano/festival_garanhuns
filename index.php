@@ -20,7 +20,7 @@ get_header(); ?>
 		<span class="imagem_busca"></span>
 		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : ?><?php endif; ?>
 		
-			<?php 
+			<?php /*
 			$args = array( 'post_type' => 'comida', 'posts_per_page' => 10 );
 			$loop = new WP_Query( $args );
 			while ( $loop->have_posts() ) : $loop->the_post();
@@ -28,16 +28,19 @@ get_header(); ?>
 				echo '<div class="entry-content">';
 				the_content();
 				echo '</div>';
-			endwhile;
+			endwhile; */
 			?>
-			<?php //get_template_part('roteiro'); ?>
-			<?php //get_template_part('roteiro'); ?>
+			
+			<?php get_template_part('template/roteiro', 'home'); ?>
+			<?php get_template_part('template/experimenta', 'home'); ?>
+			
+			<div id="ultimas_home">
+				<?php get_template_part('template/ultimas', 'home'); ?>
+			</div>
 			
 		</div><!-- #content -->
 		
-		<div id="ultimas" class="site-content" role="main">
-		
-		</div>
+
 		
 		<?php get_template_part('sidebar'); ?><!-- #sidebar direita -->
 		
