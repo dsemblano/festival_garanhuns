@@ -42,6 +42,7 @@ function garanhuns_setup() {
 	add_theme_support( 'post-thumbnails' );
 	
 	add_image_size( 'slider2', 365, 375, true );
+	add_image_size( 'slider2_cloche', 365, 235, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.

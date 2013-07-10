@@ -15,10 +15,10 @@
 					<? the_post_thumbnail( 'slider2', array( 'title' => ''.get_the_title().'' )); // Imagem do Slider ?>
 				</a>
 				<h5 class="gallery-title titulo_home"><a href="<?the_permalink(); ?>" title="<? the_title(); ?>"><? echo the_title(); ?></a></h5>
-				<p class="flex-caption">						
+				<div class="flex-caption">						
 					<a href="<?php the_permalink(); ?>">
 					</a>
-				</p>
+				</div>
 			</li>
 			<?php endwhile;endif; wp_reset_query(); ?>
 		</ul>

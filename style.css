@@ -754,8 +754,7 @@ aside#taxonomy-drill-down-2 form input {
 }
 
 article.flexslider {
-    height: 430px;
-	margin: 0 0 25px !important;
+	margin: 0 0 10px !important;
 }
 
 article.flexslider .gallery-title {
@@ -765,6 +764,7 @@ article.flexslider .gallery-title {
 .flex-control-nav {
 	bottom: 15px !important;
 	position: relative !important;
+	display: none;
 }
 
 .flex-direction-nav .flex-prev {
@@ -843,7 +843,6 @@ aside#sidebar_direita .menu-menu-container ul li:nth-child(3) { background-color
 
 aside#sidebar_direita #cloche_home {
 	background-color: burlywood;
-	height: 350px;
 	margin-top: 20px;
 }
 
@@ -851,6 +850,10 @@ aside#sidebar_direita #facebook {
 	background-color: #3B5998;
 	height: 230px;
 	margin-top: 20px;
+}
+
+#cloche_home {
+
 }
 
 
