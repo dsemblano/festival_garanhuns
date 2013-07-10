@@ -2,7 +2,7 @@
     $(window).load(function() {
         $('.flexslider').flexslider({
 	        animation: 'fade',
-			slideshowSpeed: 4000,
+			slideshowSpeed: 8000,
 		    controlsContainer: '.flex-container'
 	    });
     });

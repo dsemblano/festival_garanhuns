@@ -43,6 +43,7 @@ function garanhuns_setup() {
 	
 	add_image_size( 'slider2', 365, 375, true );
 	add_image_size( 'slider2_cloche', 365, 235, true );
+	add_image_size( 'category-pages', 200, 135, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.
