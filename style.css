@@ -741,7 +741,7 @@ aside#taxonomy-drill-down-2 form input {
 #primary #content {
     background-color: #C6C6C6;
     float: left;
-	width: 60%;
+	width: 65%;
 }
 
 #secondary {
@@ -817,9 +817,37 @@ h3.titulo_home_desc {
 	background-color: #AAAAAA;
 	display: inline-block;
 	margin-top: 20px;
-	min-height: 200px;
+	min-height: 230px;
 	width: 100%;
 }
+
+aside#sidebar_direita {
+	background-color: black;
+	float: right;
+	width: 30%;
+}
+
+aside#sidebar_direita #patrocinio {
+	background-color: blueviolet;
+	height: 130px;
+	margin-bottom: 15px;
+}
+
+aside#sidebar_direita .menu-menu-container {
+	background-color: tomato;
+}
+
+aside#sidebar_direita #cloche_home {
+	background-color: burlywood;
+	height: 385px;
+}
+
+aside#sidebar_direita #facebook {
+	background-color: #3B5998;
+	height: 230px;
+	margin-top: 20px;
+}
+
 
 footer#colophon {
 	background: url("assets/folhas.png") repeat-x scroll center top / 26em auto transparent;

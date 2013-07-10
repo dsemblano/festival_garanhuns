@@ -42,7 +42,7 @@ get_header(); ?>
 		
 
 		
-		<?php get_template_part('sidebar'); ?><!-- #sidebar direita -->
+		<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
 		
 	</div><!-- #primary -->	
 
