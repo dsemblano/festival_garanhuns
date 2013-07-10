@@ -123,10 +123,10 @@ p {
 	margin-bottom: 1.5em;
 }
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	/*margin: 0 0 1.5em 3em;*/
 }
 ul {
-	list-style: disc;
+	list-style: none;
 }
 ol {
 	list-style: decimal;
@@ -741,13 +741,7 @@ aside#taxonomy-drill-down-2 form input {
 #primary #content {
     background-color: #C6C6C6;
     float: left;
-	width: 65%;
-}
-
-#secondary {
-    background-color: #C6C6C6;
-    float: right;
-    width: 30%;
+	width: 70%;
 }
 
 /* Destaque home */
@@ -824,7 +818,7 @@ h3.titulo_home_desc {
 aside#sidebar_direita {
 	background-color: black;
 	float: right;
-	width: 30%;
+	width: 28%;
 }
 
 aside#sidebar_direita #patrocinio {
@@ -837,9 +831,20 @@ aside#sidebar_direita .menu-menu-container {
 	background-color: tomato;
 }
 
+aside#sidebar_direita .menu-menu-container ul { text-indent: 15px; text-transform: uppercase; }
+
+aside#sidebar_direita .menu-menu-container ul li { margin: 5px 0 0; padding: 5px 0; }
+
+aside#sidebar_direita .menu-menu-container ul li a{ color: #FFFFFF; }
+
+aside#sidebar_direita .menu-menu-container ul li:nth-child(1) { background-color: #81BD99; }
+aside#sidebar_direita .menu-menu-container ul li:nth-child(2) { background-color: #104367; }
+aside#sidebar_direita .menu-menu-container ul li:nth-child(3) { background-color: #007493; }
+
 aside#sidebar_direita #cloche_home {
 	background-color: burlywood;
-	height: 385px;
+	height: 350px;
+	margin-top: 20px;
 }
 
 aside#sidebar_direita #facebook {
