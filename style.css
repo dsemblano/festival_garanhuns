@@ -675,7 +675,7 @@ header img#cachecol {
 /* Busca por taxonomia */
 
 span.imagem_busca {
-	background-color: red;
+	/*background-color: red;*/
 	float: left;
 	height: 5px;
 	width: 100%;
@@ -739,14 +739,14 @@ aside#taxonomy-drill-down-2 form input {
 }
 
 #primary #content {
-    background-color: #C6C6C6;
+    /*background-color: #C6C6C6;*/
     float: left;
 	width: 70%;
 }
 
 /* Destaque home */
 .destaque {
-	background-color: red;
+	/*background-color: red;*/
 	display: inline-block;
 	margin: 20px 0 0;
 	min-height: 350px;
@@ -754,6 +754,9 @@ aside#taxonomy-drill-down-2 form input {
 }
 
 article.flexslider {
+	background-color: transparent;
+	border: none;
+	border-radius: 0 0 0 0;
 	margin: 0 0 10px !important;
 }
 
@@ -804,6 +807,7 @@ h2.titulo_home {
 
 h3.titulo_home_desc {
 	background-color: #DFC598;
+	font-size: 0.9em;
 }
 
 
@@ -816,7 +820,7 @@ h3.titulo_home_desc {
 }
 
 aside#sidebar_direita {
-	background-color: black;
+	/*background-color: black;*/
 	float: right;
 	width: 28%;
 }
@@ -828,7 +832,7 @@ aside#sidebar_direita #patrocinio {
 }
 
 aside#sidebar_direita .menu-menu-container {
-	background-color: tomato;
+	/*background-color: tomato;*/
 }
 
 aside#sidebar_direita .menu-menu-container ul { text-indent: 15px; text-transform: uppercase; }
@@ -840,9 +844,10 @@ aside#sidebar_direita .menu-menu-container ul li a{ color: #FFFFFF; }
 aside#sidebar_direita .menu-menu-container ul li:nth-child(1) { background-color: #81BD99; }
 aside#sidebar_direita .menu-menu-container ul li:nth-child(2) { background-color: #104367; }
 aside#sidebar_direita .menu-menu-container ul li:nth-child(3) { background-color: #007493; }
+aside#sidebar_direita .menu-menu-container ul li:nth-child(4) { background-color: #EE811F; }
 
 aside#sidebar_direita #cloche_home {
-	background-color: burlywood;
+	/*background-color: burlywood;*/
 	margin-top: 20px;
 }
 
