@@ -1,7 +1,7 @@
 (function($) {
     $(window).load(function() {
         $('.flexslider').flexslider({
-	        animation: 'slide',
+	        animation: 'fade',
 			slideshowSpeed: 4000,
 		    controlsContainer: '.flex-container'
 	    });
