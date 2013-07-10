@@ -38,6 +38,11 @@ Template Name: Todas Materias
 				</div>
 			</article>
 		<?php endforeach; endwhile; ?>
+		
+		<?php if ($wp_query->max_num_pages > 5) : ?>
+			<nav id="post-nav"><? wp_paginate(); ?></nav>
+		<?php endif; ?>
+		
 	</div>
 </div>
 		
