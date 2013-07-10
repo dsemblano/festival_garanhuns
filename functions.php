@@ -127,6 +127,16 @@ function string_limit_words($string, $word_limit)
   return implode(' ', $words);
 }
 
+
+/************************************/
+/*	Custom WordPress Login Logo		*/
+/************************************/
+function login_css() {
+	wp_enqueue_style( 'login_css', get_stylesheet_directory_uri() . '/login.css' );
+}
+add_action('login_head', 'login_css');
+
+
 /**
  * Implement the Custom Header feature.
  */
