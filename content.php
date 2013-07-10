@@ -13,10 +13,8 @@
 				} ?>			
 		</figure>
 		
-		<time datetime="<?php the_time('d/m/y G:i'); ?>">
-			<?php the_time('d/m/y G:i'); ?>
-			<h3><?php the_title(); ?></h3>
-		</time>
+		<time datetime="<?php the_time('d/m/y G:i'); ?>"><?php the_time('d/m/y G:i'); ?></time>
+		<h3><?php the_title(); ?></h3>
 		
 		<div class="entry-content">
 			<?php

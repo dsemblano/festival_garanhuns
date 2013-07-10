@@ -884,6 +884,7 @@ aside#sidebar_direita #facebook {
 	font-size: 1em;
 	margin: 0 0 10px;
 	padding: 5px 5px 0;
+	text-align: left;
 	width: 15%;
 	.box_transition
 	-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
@@ -900,6 +901,11 @@ aside#sidebar_direita #facebook {
 	background-color: #D8D8D8;
 	-webkit-border-radius: 5px;
 	border-radius: 5px; 
+}
+
+.internas  article {
+
+
 }
 
 figure.img-busca img {

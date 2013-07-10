@@ -21,10 +21,8 @@ Template Name: Todas Materias
 									the_post_thumbnail( 'category-pages', array( 'title' => ''.get_the_title().'' ));
 								} ?>			
 						</figure>
-						<time datetime="<?php the_time('d/m/y G:i'); ?>">
-							<?php the_time('d/m/y G:i'); ?>
-							<h3><?php the_title(); ?></h3>
-						</time>
+					<time datetime="<?php the_time('d/m/y G:i'); ?>"><?php the_time('d/m/y G:i'); ?></time>
+					<h3><?php the_title(); ?></h3>
 					<div class="entry-content">
 						<?php
 						if (empty($post -> post_excerpt)) {
