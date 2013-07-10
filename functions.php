@@ -39,7 +39,9 @@ function garanhuns_setup() {
 	 *
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
-	//add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'post-thumbnails' );
+	
+	add_image_size( 'slider2', 365, 375, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.
@@ -97,6 +99,12 @@ function garanhuns_scripts() {
 	wp_enqueue_script( 'garanhuns-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'garanhuns-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	
+	if(is_home()) {
+		wp_enqueue_script('flexslider', get_bloginfo('stylesheet_directory').'/js/jquery.flexslider-min.js', array('jquery'));
+		wp_enqueue_script('flexslider-init', get_bloginfo('stylesheet_directory').'/js/flexslider-init.js', array('jquery', 'flexslider'));
+		wp_enqueue_style('flexslider', get_bloginfo('stylesheet_directory').'/flexslider.css');
+	}
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -107,6 +115,15 @@ function garanhuns_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'garanhuns_scripts' );
+
+// Limitando palavras/strings do excerpt
+function string_limit_words($string, $word_limit)
+{
+  $words = explode(' ', $string, ($word_limit + 1));
+  if(count($words) > $word_limit)
+  array_pop($words);
+  return implode(' ', $words);
+}
 
 /**
  * Implement the Custom Header feature.
