@@ -659,7 +659,8 @@ header#masthead {
 	background-image: url("assets/nuvem.png");
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
-	background-size: 22em auto;
+	background-size: 21em auto;
+	padding-left: 4%;
 	animation: animatedBackground 40s linear infinite;
 	-ms-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
@@ -718,7 +719,7 @@ span.imagem_busca {
 #logo {
 	display: inline-block;
 	margin: 15px;
-	width: 15%;
+	/*width: 15%;*/
 }
 
 .site-description {
@@ -729,7 +730,7 @@ span.imagem_busca {
 	position: absolute;
 	text-align: center;
 	top: 30px;
-	width: 70%;
+	width: 60%;
 }
 
 #primary {
