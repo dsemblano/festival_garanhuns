@@ -483,7 +483,7 @@ a:active {
 }
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 1rem 0 0;
 }
 .page-links {
 	clear: both;
@@ -889,7 +889,6 @@ aside#sidebar_direita #facebook {
 /* Paginas */
 
 .internas {
-    text-align: justify;
 	/*margin-top: 20px;*/
 }
 
@@ -897,16 +896,17 @@ aside#sidebar_direita #facebook {
     color: #007AD3; 
 	/*font-family: hvd_comic_serif_proregular;*/
 	font-size: 2em;
-	margin: 10px 0 0;
+	margin: 10px 0;
 }
 
-.internas  article {
+.internas article {
+    /*background-color: green;*/
     display: inline-block;
 	font-size: 1em;
 	margin: 0 0 10px;
 	padding: 5px 5px 0;
 	text-align: left;
-	width: 15%;
+	width: 100%;
 	.box_transition
 	-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
 	-moz-transition: all 0.3s ease-out;  /* FF4+ */
@@ -916,17 +916,28 @@ aside#sidebar_direita #facebook {
 	background-color: transparent;
 }
 
-.internas  article a { color: #534741; }
+.internas article a { color: #534741; }
 
-.internas  article:hover {
+.internas article:hover {
 	background-color: #D8D8D8;
 	-webkit-border-radius: 5px;
 	border-radius: 5px; 
 }
 
-.internas  article {
+.internas article figure {
+	/*background-color: red;*/
+	float: left;
+	margin-right: 15px;
+}
 
+.internas article h3 {
+	/*background-color: yellow;*/
+	display: inline-block;
+	font-size: 2rem;
+}
 
+.internas article h3 time {
+	font-size: 1.2rem;
 }
 
 figure.img-busca img {
