@@ -8,9 +8,9 @@
  */
 ?>
 
-<article id="post-0" class="post no-results not-found">
-	<header class="entry-header">
-		<?php get_search_form(); ?>
+<?php get_search_form(); ?>
+<article id="post-0" class="post no-results not-found">	
+	<header class="entry-header">		
 		<h1 class="entry-title"><?php _e( 'Nenhum Resultado Encontrado', 'garanhuns' ); ?></h1>
 	</header><!-- .entry-header -->
 

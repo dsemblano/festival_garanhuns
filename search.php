@@ -8,12 +8,12 @@
 get_header(); ?>
 
 	<section id="primary" class="content-area meio">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content busca-pagina" role="main">
 
 		<?php if ( have_posts() ) : ?>
-
-			<header class="page-header">
+			
 			<?php get_search_form(); ?>
+			<header class="page-header">			
 				<h1 class="page-title"><?php printf( __( 'Resultados da busca por: %s', 'garanhuns' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 

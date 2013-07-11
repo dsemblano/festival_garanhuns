@@ -13,7 +13,7 @@ get_header(); ?>
 		<div id="content" class="site-content internas" role="main">
 
 		<?php if ( have_posts() ) : ?>
-
+			<?php get_search_form(); ?>
 			<header class="page-header">
 				<h1 class="page-title">
 					<?php

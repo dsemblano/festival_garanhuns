@@ -716,8 +716,8 @@ span.imagem_busca #cachecol_busca_tras {
 	color: #FFFFFF;
     /*margin: 20px 0 0;*/
 	padding: 5px 10px 5px 0;
-	-webkit-border-radius: 10px;
-    border-radius: 10px;
+	-webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .search-form label {
@@ -906,11 +906,15 @@ aside#sidebar_direita #facebook {
 	font-size: 3.5rem;
 }
 
-.internas .page-title {
+.internas .page-title, .busca-pagina .page-title {
 	margin: 0 0 10px 10px;
 }
 
-.internas article {
+.busca-pagina {
+
+}
+
+.internas article, .busca-pagina article {
     /*background-color: green;*/
     display: inline-block;
 	font-size: 1em;
@@ -973,12 +977,12 @@ article.type-post header {
 
 /* Matérias */
 
-.single-page, .internas {
+.single-page, .internas, .busca-pagina {
 	background-color: #FFFFFF;
 	/*margin: 20px 0 0;*/
 	/*padding: 5px 0 0 15px;*/
-	-webkit-border-radius: 15px 0px 0px 15px;
-    border-radius: 15px 0px 0px 15px;
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
 	-webkit-box-shadow: 0px 2px 10px 0px rgba(100, 100, 100, 0.3);
     box-shadow: 0px 2px 10px 0px rgba(100, 100, 100, 0.3);
 }
