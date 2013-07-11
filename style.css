@@ -108,6 +108,10 @@ textarea {
 	text-rendering: optimizelegibility;
 }
 
+.entry-summary {
+    color: #404040;
+}
+
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
@@ -320,15 +324,18 @@ textarea {
 /* Links */
 a {
 	/*color: royalblue;*/
+	color: #404040;
 	text-decoration: none;
 }
 a:visited {
 	/*color: purple;*/
+	color: #404040;
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	/*color: midnightblue;*/
+	color: #262626;
 	text-decoration: underline;
 }
 
@@ -485,6 +492,7 @@ a:active {
 .entry-summary {
 	margin: 1rem 0 0;
 }
+
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
@@ -898,7 +906,7 @@ aside#sidebar_direita #facebook {
 	font-size: 3.5rem;
 }
 
-.page-title {
+.internas .page-title {
 	margin: 0 0 10px 10px;
 }
 
