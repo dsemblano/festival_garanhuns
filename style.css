@@ -682,7 +682,8 @@ span.imagem_busca {
 	width: 100%;*/
 }
 
-.widget_taxonomy-drill-down {
+.search-form {
+    text-align: right;
     background-color: #007CD6;
 	color: #FFFFFF;
 	height: 40px;
@@ -692,24 +693,24 @@ span.imagem_busca {
     border-radius: 0px 0px 15px 15px;
 }
 
-.widget_taxonomy-drill-down .widget-title {
+.search-form .widget-title {
 	float: left;
 }
 
-.widget_taxonomy-drill-down form  {
+.search-form form  {
 	float: right;
 }
 
-.widget_taxonomy-drill-down form ul {
+.search-form form ul {
 	float: left;
 	margin: 0;
 }
 
-.widget_taxonomy-drill-down form ul li {
+.search-form form ul li {
 	
 }
 
-.widget_taxonomy-drill-down form input {
+.search-form form input {
 	margin-left: 20px;
 }
 
@@ -961,7 +962,7 @@ footer#colophon {
 	and (min-width : 768px)
 	and (max-width : 1024px) {
 		.site-description { font-size: 1.5em; }
-		.widget_taxonomy-drill-down { padding: 5px 5px 0; font-size: 0.8em; }
+		.search-form { padding: 5px 5px 0; font-size: 0.8em; }
 	
 	}
 		
@@ -970,6 +971,7 @@ footer#colophon {
 	and (min-width : 768px)
 	and (max-width : 1024px)
 	and (orientation : landscape) {
+		#facebook  { display: none; }
 	}
 	
 	/* iPads (portrait) ———– */

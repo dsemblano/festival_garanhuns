@@ -18,7 +18,8 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 		
 		<span class="imagem_busca"></span>
-		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : ?><?php endif; ?>
+		<?php get_search_form(); ?>
+		<?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : ?><?php //endif; ?>
 		
 			<?php /*
 			$args = array( 'post_type' => 'comida', 'posts_per_page' => 10 );
