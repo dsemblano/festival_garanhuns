@@ -894,13 +894,13 @@ aside#sidebar_direita #facebook {
 /*.touchcarousel-item { padding-bottom: 20px !important; }*/
 /*.touchcarousel-item .tc-block { width: 170% !important; }*/
 .touchcarousel {
-	height: 260px !important;
+	/*height: 260px !important;*/
 }
 
 .touchcarousel .touchcarousel-wrapper {
-    background-color: red;
+    /*background-color: red;
 	padding: 5px;
-	height: 100% !important;
+	height: 100% !important;*/
 }
 
 /* Paginas */
