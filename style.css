@@ -310,12 +310,12 @@ textarea {
 /* Typography */
 
 @font-face {
-    font-family: 'new_athletic_m54regular';
-    src: url('./fonts/new_athletic_m54-webfont.eot');
-    src: url('./fonts/new_athletic_m54-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/new_athletic_m54-webfont.woff') format('woff'),
-         url('./fonts/new_athletic_m54-webfont.ttf') format('truetype'),
-         url('./fonts/new_athletic_m54-webfont.svg#new_athletic_m54regular') format('svg');
+    font-family: 'sofiaregular';
+    src: url('./fonts/sofia-regular-webfont.eot');
+    src: url('./fonts/sofia-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/sofia-regular-webfont.woff') format('woff'),
+         url('./fonts/sofia-regular-webfont.ttf') format('truetype'),
+         url('./fonts/sofia-regular-webfont.svg#sofiaregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -752,12 +752,11 @@ span.imagem_busca #cachecol_busca_tras {
 .site-description {
 	color: #EE811F;
 	display: inline-block;
-	font-family: open sans;
-	font-size: 2.6rem;
+	font-family: 'sofiaregular';
+	font-size: 3rem;
 	font-weight: bold;
 	letter-spacing: 0.2rem;
 	text-align: left;
-	text-transform: uppercase;
 }
 
 #primary {
@@ -841,8 +840,6 @@ h3.titulo_home_desc {
 #ultimas_home {
 	background-color: #B7DCDB;
 	display: inline-block;
-	margin-top: 20px;
-	min-height: 230px;
 	width: 100%;
 }
 
@@ -1092,6 +1089,11 @@ footer#colophon {
 		.site-description { font-size: 3em; top: 40px; }
 		#primary {
 		min-height: 800px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-next-horizontal {
+		    margin-right: 10px !important;
+			right: -70px !important;
 		}
 	}
 	

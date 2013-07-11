@@ -32,7 +32,7 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">		
 				<?php $header_image = get_header_image();
 				if ( ! empty( $header_image ) ) { ?>
-				<img id="logo" class="site-branding" src="<?php header_image(); ?>" alt="Gastro Online logo" />
+				<img id="logo" class="site-branding" src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" alt="Gastro Online logo" />
 				<?php } ?>
 				<h2 class="site-description site-branding"><?php bloginfo( 'description' ); ?></h2>		
 				<img id="cachecol" class="site-branding" src="<?php echo get_template_directory_uri(); ?>/assets/cachecol.png" alt="imagem cachecol">

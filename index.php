@@ -37,6 +37,7 @@ get_header(); ?>
 			<div id="ultimas_home">
 				<?php get_template_part('template/ultimas', 'home'); ?>
 			</div>
+
 			
 		</div><!-- #content -->
 		
