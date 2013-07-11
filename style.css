@@ -1027,6 +1027,11 @@ article.type-post header {
 	display: none;
 }
 
+.ad-gallery .ad-nav { padding: 10px 0 10px 15px !important; }
+.ad-gallery .ad-back { left: -5px !important; }
+.ad-gallery .ad-forward { right: 15px !important; }
+.ad-gallery .ad-forward, .ad-gallery .ad-back { top: 25px !important; }
+
 #facebook {
     background-color: #FFFFFF;
 }
