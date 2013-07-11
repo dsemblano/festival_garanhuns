@@ -6,11 +6,6 @@
  */
 ?>
 
-<span class="imagem_busca">
-	<img id="cachecol_busca_frente" src="<?php echo get_template_directory_uri(); ?>/assets/cachecolfrente.png" alt="imagem cachecol">
-	<img id="cachecol_busca_tras" src="<?php echo get_template_directory_uri(); ?>/assets/cachecoltras2.png" alt="imagem cachecol">
-</span>
-
 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<label>
 		<span class="screen-reader-text"><?php _ex( 'Search for:', 'label', 'garanhuns' ); ?></span>

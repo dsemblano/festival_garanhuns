@@ -304,13 +304,14 @@ textarea {
 }
 
 /* Typography */
+
 @font-face {
-    font-family: 'hvd_comic_serif_proregular';
-    src: url('./fonts/hvd_fonts_-_hvdcomicserifpro-webfont.eot');
-    src: url('./fonts/hvd_fonts_-_hvdcomicserifpro-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/hvd_fonts_-_hvdcomicserifpro-webfont.woff') format('woff'),
-         url('./fonts/hvd_fonts_-_hvdcomicserifpro-webfont.ttf') format('truetype'),
-         url('./fonts/hvd_fonts_-_hvdcomicserifpro-webfont.svg#hvd_comic_serif_proregular') format('svg');
+    font-family: 'new_athletic_m54regular';
+    src: url('./fonts/new_athletic_m54-webfont.eot');
+    src: url('./fonts/new_athletic_m54-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/new_athletic_m54-webfont.woff') format('woff'),
+         url('./fonts/new_athletic_m54-webfont.ttf') format('truetype'),
+         url('./fonts/new_athletic_m54-webfont.svg#new_athletic_m54regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -489,6 +490,8 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.site-main { margin-top: 15px; }
+
 
 /* =Asides
 ----------------------------------------------- */
@@ -653,14 +656,26 @@ body {
 
 header#masthead {
 	background-image: url("assets/nuvem.png");
+	/*background-color: red;*/
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
-	background-size: 21em auto;
+	background-size: 17em auto;
 	padding-left: 4%;
 	animation: animatedBackground 40s linear infinite;
 	-ms-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
 	-webkit-animation: animatedBackground 40s linear infinite;
+}
+
+.site-branding {
+    /*background-color: green;*/
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+#logo {
+	margin: 1em 3em 0 0;
+	width: 15%;
 }
 
 header img#cachecol {
@@ -691,11 +706,10 @@ span.imagem_busca #cachecol_busca_tras {
     text-align: right;
     background-color: #9E005D;
 	color: #FFFFFF;
-	height: 30px;
-    margin: 20px 0 0;
-	padding: 10px 15px 0;
-	-webkit-border-radius: 0px 0px 15px 15px;
-    border-radius: 0px 0px 15px 15px;
+    /*margin: 20px 0 0;*/
+	padding: 5px 10px 5px 0;
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .search-form label {
@@ -727,21 +741,15 @@ span.imagem_busca #cachecol_busca_tras {
 	display: none;
 }
 
-#logo {
-	display: inline-block;
-	margin: 15px;
-	/*width: 15%;*/
-}
-
 .site-description {
 	color: #EE811F;
 	display: inline-block;
-	font-family: hvd_comic_serif_proregular;
-	font-size: 2.5em;
-	position: absolute;
-	text-align: center;
-	top: 30px;
-	width: 65%;
+	font-family: open sans;
+	font-size: 2.6rem;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	text-align: left;
+	text-transform: uppercase;
 }
 
 #primary {
@@ -832,7 +840,7 @@ h3.titulo_home_desc {
 
 aside#sidebar_direita {
 	/*background-color: black;*/
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	float: right;
 	width: 28%;
 }
@@ -879,9 +887,10 @@ aside#sidebar_direita #facebook {
 .touchcarousel-item .tc-block { width: 170% !important; }
 
 /* Paginas */
+
 .internas {
     text-align: justify;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 
 .page-title, .entry-title {
@@ -924,7 +933,7 @@ figure.img-busca img {
 	border-radius: 5px;
 }
 
-article.type-post {
+article.type-post, article.type-roteiro {
     /*background-color: red;*/
 	/*text-align: justify;*/
 	/*padding: 5px 25px 1px 5px;*/
@@ -940,7 +949,7 @@ article.type-post header {
 
 .single-page  {
 	background-color: #FFFFFF;
-	margin: 20px 0 0;
+	/*margin: 20px 0 0;*/
 	/*padding: 5px 0 0 15px;*/
 	-webkit-border-radius: 15px 0px 0px 15px;
     border-radius: 15px 0px 0px 15px;
@@ -951,6 +960,40 @@ article.type-post header {
 .internas, .single-page article.type-post {
     /*background-color: #FFF;
 	border-radius: 10px 10px 10px 10px;*/
+}
+
+/* SM Gallery */
+
+#galleryContent1 {
+	/*background-color: black;*/
+}
+
+#galleryContent1 .ad-gallery {
+	/*background-color: brown;*/
+	background-color: transparent;
+	padding: 0 !important;
+	width: 100%;
+}
+
+#galleryContent1 .ad-gallery img {
+
+}
+
+#galleryContent1 .ad-gallery .ad-nav {
+	/*background-color: green;*/
+}
+
+#galleryContent1 .ad-gallery .ad-nav .ad-thumbs {
+    width: 90%;
+	/*background-color: red;*/
+}
+
+#galleryContent1 .ad-gallery .ad-image-wrapper {
+	/*background-color: blue;*/
+}
+
+#galleryContent1 .ad-gallery .ad-controls {
+	display: none;
 }
 
 #facebook {

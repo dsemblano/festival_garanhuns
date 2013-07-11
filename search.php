@@ -7,13 +7,14 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
+	<section id="primary" class="content-area meio">
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'garanhuns' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+			<?php get_search_form(); ?>
+				<h1 class="page-title"><?php printf( __( 'Resultados da busca por: %s', 'garanhuns' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
@@ -32,7 +33,8 @@ get_header(); ?>
 		<?php endif; ?>
 
 		</div><!-- #content -->
+		
+		<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
 	</section><!-- #primary -->
 
-<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
 <?php get_footer(); ?>

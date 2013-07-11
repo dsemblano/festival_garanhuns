@@ -10,7 +10,8 @@
 
 <article id="post-0" class="post no-results not-found">
 	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'garanhuns' ); ?></h1>
+		<?php get_search_form(); ?>
+		<h1 class="entry-title"><?php _e( 'Nenhum Resultado Encontrado', 'garanhuns' ); ?></h1>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -19,14 +20,12 @@
 			<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'garanhuns' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
 
 		<?php elseif ( is_search() ) : ?>
-
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'garanhuns' ); ?></p>
-			<?php get_search_form(); ?>
+			
+			<p><?php _e( 'Por favor, tente novamente usando outros termos.', 'garanhuns' ); ?></p>			
 
 		<?php else : ?>
 
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'garanhuns' ); ?></p>
-			<?php get_search_form(); ?>
+			<p><?php _e( 'N&atilde;o conseguimos encontrar o que voc&ecirc; estava procurando. Usar a busca pode ajudar.', 'garanhuns' ); ?></p>
 
 		<?php endif; ?>
 	</div><!-- .entry-content -->
