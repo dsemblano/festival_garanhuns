@@ -41,9 +41,9 @@
 	<header id="masthead" class="site-header" role="banner">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<img id="logo" class="site-branding" src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" alt="Gastro Online logo" />
-				<h2 class="site-description site-branding"><?php bloginfo( 'description' ); ?></h2>
-			</a>
-			<img id="cachecol" class="site-branding" src="<?php echo get_template_directory_uri(); ?>/assets/cachecol.svg" alt="imagem cachecol">
+				<h1 class="site-description site-branding"><?php bloginfo( 'description' ); ?></h1>
+				<img id="cachecol" class="site-branding" src="<?php echo get_template_directory_uri(); ?>/assets/cachecol.png" alt="imagem cachecol">
+			</a>			
 	</header><!-- #masthead -->	
 
 	<div id="main" class="site-main">

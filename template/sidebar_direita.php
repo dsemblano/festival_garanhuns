@@ -1,5 +1,6 @@
 <aside id="sidebar_direita">
 	<div id="patrocinio">
+		<img id="patrocinio" src="<?php echo get_template_directory_uri(); ?>/assets/banner_anuncie.jpg" alt="imagem anunncie aqui">
 	</div>
 	
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
