@@ -14,6 +14,8 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
+		<?php $content = get_the_content(); ?>
+		<?php //print_r ($content); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'garanhuns' ),

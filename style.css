@@ -129,7 +129,7 @@ ul {
 	list-style: none;
 }
 ol {
-	list-style: decimal;
+	/*list-style: decimal;*/
 }
 li > ul,
 li > ol {
@@ -559,7 +559,7 @@ object {
 ----------------------------------------------- */
 
 .site-content [class*="navigation"] {
-	margin: 0 0 1.5em;
+	margin: 0 1em 1.5em;
 	overflow: hidden;
 }
 [class*="navigation"] .nav-previous {
@@ -684,7 +684,7 @@ span.imagem_busca {
     background-color: #007CD6;
 	color: #FFFFFF;
 	height: 40px;
-	margin: 0;
+    margin: 20px 0 0;
 	padding: 10px 15px 0;
 	-webkit-border-radius: 0px 0px 15px 15px;
     border-radius: 0px 0px 15px 15px;
@@ -874,9 +874,9 @@ aside#sidebar_direita #facebook {
 
 .page-title, .entry-title {
     color: #007AD3; 
-	font-family: hvd_comic_serif_proregular;
+	/*font-family: hvd_comic_serif_proregular;*/
 	font-size: 2em;
-	margin-bottom: 15px;
+	margin: 10px 0 0;
 }
 
 .internas  article {
@@ -913,8 +913,10 @@ figure.img-busca img {
 }
 
 article.type-post {
-	text-align: justify;
-	padding: 5px 25px 1px 5px;
+    /*background-color: red;*/
+	/*text-align: justify;*/
+	/*padding: 5px 25px 1px 5px;*/
+	margin: 0 1em 1.5em;
 	transition: all 0.3s ease-out 0s;
 }
 
@@ -925,12 +927,22 @@ article.type-post header {
 /* Matérias */
 
 .single-page  {
-
+	background-color: #FFFFFF;
+	margin: 20px 0 0;
+	/*padding: 5px 0 0 15px;*/
+	-webkit-border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0px 0px 15px;
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(100, 100, 100, 0.3);
+    box-shadow: 0px 2px 10px 0px rgba(100, 100, 100, 0.3);
 }
 
 .internas, .single-page article.type-post {
     /*background-color: #FFF;
 	border-radius: 10px 10px 10px 10px;*/
+}
+
+#facebook {
+    background-color: #FFFFFF;
 }
 
 

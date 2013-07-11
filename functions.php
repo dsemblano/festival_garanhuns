@@ -42,7 +42,7 @@ function garanhuns_setup() {
 	add_theme_support( 'post-thumbnails' );
 	
 	add_image_size( 'slider2', 365, 375, true );
-	add_image_size( 'slider2_cloche', 365, 190, true );
+	add_image_size( 'slider2_cloche', 365, 195, true );
 	add_image_size( 'category-pages', 200, 135, true );
 
 	/**
