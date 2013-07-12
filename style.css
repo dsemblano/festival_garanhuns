@@ -225,7 +225,6 @@ article.flexslider .gallery-title{}
 .titulo_home_desc{color:#534741;padding:5px 0 5px 10px;}
 .titulo_home_desc a{color:#534741;}
 h3.titulo_home_desc{background-color:#DFC598;font-size:0.9em;}
-#ultimas_home{background-color:#B7DCDB;display:inline-block;width:100%;}
 aside#sidebar_direita{float:right;width:28%;}
 aside#sidebar_direita #patrocinio{}
 aside#sidebar_direita .menu-menu-container{margin-top: 15px;}
@@ -275,20 +274,13 @@ article.type-post header{}
 #facebook{background-color:#FFFFFF;}
 .fb-like span{overflow:visible !important;width:450px !important;margin-right:-375px;z-index:9999;}
 footer#colophon{background:url("assets/folhas.png") repeat-x scroll center top/26em auto transparent;height:65px;}
-.jcarousel-skin-tango{height:100%;}
-.jcarousel-skin-tango li{display:inline-block;padding:5px 0;text-align:center;width:33%;}
-.jcarousel-skin-tango li h3{'	margin-left: 3px;
-text-align: left;
-text-indent: 7px;
-}
-
-.jcarousel-skin-tango li img {
-	width: 95%;
-}
-
-.jcarousel-skin-tango li:last-child {
-
-}
+#ultimas_home{font-size: 1.5rem;text-align: justify;}
+#ultimas_home li{display: inline-block;margin-bottom: 3%;padding-top: 1%;width: 32%;}
+#ultimas_home li h3{height: 30px;}
+#ultimas_home:after{content: '';display: inline-block;width: 100%;}
+#ultimas_home li img {width: 100%;}
+#ultimas_home li:last-child {}
+#ultimas_home li:nth-child(3) img, #ultimas_home li:nth-child(6) img{}
 
 /* MEDIA QUERIES */
 /* iPads (portrait and landscape)  */

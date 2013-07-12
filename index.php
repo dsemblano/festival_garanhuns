@@ -32,12 +32,8 @@ get_header(); ?>
 			?>
 			
 			<?php get_template_part('template/roteiro', 'home'); ?>
-			<?php get_template_part('template/experimenta', 'home'); ?>
-			
-			<div id="ultimas_home">
-				<?php get_template_part('template/ultimas', 'home'); ?>
-			</div>
-
+			<?php get_template_part('template/experimenta', 'home'); ?>			
+			<?php get_template_part('template/ultimas', 'home'); ?>
 			
 		</div><!-- #content -->
 		
