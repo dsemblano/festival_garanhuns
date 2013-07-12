@@ -55,26 +55,7 @@ function garanhuns_header_style() {
 
 	// If we get this far, we have custom styles. Let's do this.
 	?>
-	<style type="text/css">
-	<?php
-		// Has the text been hidden?
-		if ( 'blank' == $header_text_color ) :
-	?>
-		.site-title,
-		.site-description {
-			/*position: absolute;*/
-			/*clip: rect(1px, 1px, 1px, 1px);*/
-		}
-	<?php
-		// If the user has set a custom color for the text use that
-		else :
-	?>
-		.site-title a,
-		.site-description {
-			color: #<?php echo $header_text_color; ?>;
-		}
-	<?php endif; ?>
-	</style>
+
 	<?php
 }
 endif; // garanhuns_header_style
