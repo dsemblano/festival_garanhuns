@@ -262,7 +262,8 @@ article.type-post header{}
 .internas, .single-page article.type-post{}
 #galleryContent1{}
 #galleryContent1 .ad-gallery{background-color:transparent;padding:0 !important;width:100%;}
-#galleryContent1 .ad-gallery img{}
+#galleryContent1 .ad-gallery .ad-thumbs li {margin-right: 5px !important;}
+#galleryContent1 .ad-gallery .ad-thumbs li a.ad-active img {border:3px solid #9E005D !important;-webkit-border-radius:5px !important;border-radius:5px !important;}
 #galleryContent1 .ad-gallery .ad-nav{}
 #galleryContent1 .ad-gallery .ad-nav .ad-thumbs{width:90%;}
 #galleryContent1 .ad-gallery .ad-image-wrapper{}
