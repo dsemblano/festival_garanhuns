@@ -544,7 +544,7 @@ a:active {
 .site-content .gallery dd {
 	margin: 0;
 }
-.ad-gallery .ad-image-wrapper .ad-image .ad-image-description { color: #404040; }
+.ad-gallery .ad-image-wrapper .ad-image .ad-image-description { color: #404040 !important; }
 
 /* Make sure embeds and iframes fit their containers */
 embed,
