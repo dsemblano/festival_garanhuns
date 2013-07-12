@@ -89,6 +89,16 @@ function garanhuns_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+	
+	register_sidebar( array(
+		'name'          => __( 'Nao Encontrado', 'garanhuns' ),
+		'id'            => 'nao_encontrado',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+	
 }
 add_action( 'widgets_init', 'garanhuns_widgets_init' );
 

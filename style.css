@@ -586,6 +586,7 @@ object {
 
 .widget {
 	margin: 0 0 1.5em;
+	width: 95%;
 }
 
 /* Make sure select elements fit in widgets */
@@ -911,7 +912,7 @@ aside#sidebar_direita #facebook {
 
 }
 
-.internas article, .busca-pagina article {
+.internas article, .busca-pagina article, .nao_encontrado article {
     /*background-color: green;*/
     display: inline-block;
 	font-size: 1em;
@@ -976,9 +977,23 @@ article.type-post header {
     margin-bottom: 10px;
 }
 
+/* Página Não encontrada */
+/* Ver também advanced-recent-posts-widget.css no diretório tema garanhuns */
+
+.nao_encontrado ul.widget_categories ol {
+    list-style: circle inside none;
+	padding: 5px 0 5px 5px;
+	border: 1px solid #C9C9C9;
+}
+
+.nao_encontrado ul.widget_categories ol li {
+    display: inline-block;
+    margin: 0 5px 0 10px;
+}
+
 /* Matérias */
 
-.single-page, .internas, .busca-pagina {
+.single-page, .internas, .busca-pagina, .nao_encontrado {
 	background-color: #FFFFFF;
 	/*margin: 20px 0 0;*/
 	/*padding: 5px 0 0 15px;*/
@@ -1047,7 +1062,7 @@ footer#colophon {
 /* RETIRAR DEPOIS DE VER PROBLEMA NO AR */
 .jcarousel-skin-tango {
 height: 100%;
-text-align: justify;
+/*text-align: justify;*/
 }
 
 .jcarousel-skin-tango li {
