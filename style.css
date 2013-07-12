@@ -274,11 +274,11 @@ article.type-post header{}
 #facebook{background-color:#FFFFFF;}
 .fb-like span{overflow:visible !important;width:450px !important;margin-right:-375px;z-index:9999;}
 footer#colophon{background:url("assets/folhas.png") repeat-x scroll center top/26em auto transparent;height:65px;}
-#ultimas_home{font-size: 1.5rem;text-align: justify;}
-#ultimas_home li{display: inline-block;margin-bottom: 3%;padding-top: 1%;width: 32%;}
-#ultimas_home li h3{height: 30px;}
-#ultimas_home:after{content: '';display: inline-block;width: 100%;}
-#ultimas_home li img {width: 100%;}
+#ultimas_home{font-size:1.5rem;text-align:justify;}
+#ultimas_home li{display:inline-block;margin-bottom:1%;padding-top:1%;width:32%;}
+#ultimas_home li h3{height:30px;}
+#ultimas_home:after{content:'';display:inline-block;width:100%;}
+#ultimas_home li img {width:100%;}
 #ultimas_home li:last-child {}
 #ultimas_home li:nth-child(3) img, #ultimas_home li:nth-child(6) img{}
 
