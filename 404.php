@@ -16,7 +16,7 @@ get_header(); ?>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
-					<p><?php _e( 'Nada encontrado aqui. Tente uma das mat&eacute;rias mais recentes abaixo ou talvez a busca?', 'garanhuns' ); ?></p>
+					<p><?php _e( 'Tente uma das categorias ou mat&eacute;rias mais recentes abaixo, ou talvez a busca acima?', 'garanhuns' ); ?></p>
 					
 					<?php if ( garanhuns_categorized_blog() ) : // Lista categorias e termos - Only show the widget if site has multiple categories. ?>
 					
@@ -30,19 +30,13 @@ get_header(); ?>
 								'title_li'   => '',
 								'number'     => 5,
 							) );
+								
+							$termsquery = get_terms( 'tipo' );						
+							foreach ($termsquery as $terms) {							
+								echo '<li>' . '<a href="' . get_term_link( $terms->slug, 'tipo' ) . '">' . $terms->name . '</a>' . '</li>';
+							}							
 						?>
 							</ol>
-							<br>
-						<?php
-							
-							// Lista termos da taxonomia do post type
-							$termsquery = get_terms( 'tipo' );
-							echo '<ol class="widgettitle">Roteiro: ';
-								foreach ($termsquery as $terms) {							
-									echo '<li>' . '<a href="' . get_term_link( $terms->slug, 'tipo' ) . '">' . $terms->name . '</a>' . '</li>';
-								}
-							echo '</ol>';
-						?>
 						</ul>
 					
 					<?php endif; ?>

@@ -905,7 +905,7 @@ aside#sidebar_direita #facebook {
 }
 
 .internas .page-title, .busca-pagina .page-title {
-	margin: 0 0 10px 10px;
+	margin: 0 0 10px 15px;
 }
 
 .busca-pagina {
@@ -974,8 +974,11 @@ article.type-post header {
 }
 
 .entry-meta {
-    margin-bottom: 10px;
+	margin-bottom: 15px;
+	margin-top: 5px;
 }
+
+.entry-header { }
 
 /* Página Não encontrada */
 /* Ver também advanced-recent-posts-widget.css no diretório tema garanhuns */
