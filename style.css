@@ -226,7 +226,7 @@ article.flexslider .gallery-title{}
 .titulo_home_desc a{color:#534741;}
 h3.titulo_home_desc{background-color:#DFC598;font-size:0.9em;}
 aside#sidebar_direita{float:right;width:28%;}
-aside#sidebar_direita #patrocinio{}
+aside#sidebar_direita #patrocinio{width: 100%;}
 aside#sidebar_direita .menu-menu-container{margin-top: 15px;}
 aside#sidebar_direita .menu-menu-container ul{text-indent:15px;text-transform:uppercase;}
 aside#sidebar_direita .menu-menu-container ul li{margin:5px 0 0;padding:5px 0;}
