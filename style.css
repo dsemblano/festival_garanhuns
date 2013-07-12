@@ -977,13 +977,13 @@ article.type-post header {
 /* Página Não encontrada */
 /* Ver também advanced-recent-posts-widget.css no diretório tema garanhuns */
 
-.nao_encontrado ul.widget_categories ol {
+.not-found ul.widget_categories ol {
     list-style: circle inside none;
 	padding: 5px 0 5px 5px;
 	border: 1px solid #C9C9C9;
 }
 
-.nao_encontrado ul.widget_categories ol li {
+.not-found ul.widget_categories ol li {
     display: inline-block;
     margin: 0 5px 0 10px;
 }
