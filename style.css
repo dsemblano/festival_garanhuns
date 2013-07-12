@@ -195,7 +195,7 @@ to{background-position:100% 0;}
 header#masthead{padding:1% 0 0 5%;}
 #logo{margin-right:5%;width:20%;margin-bottom:-7px;}
 h1.site-description{color:#CC0066;display:inline-block;font-family:'new_athletic_m54regular';font-size:3.5rem;font-weight:bold;line-height:30px;text-align:center;width:auto;}
-header img#cachecol{float:right;}
+header img#cachecol{float:right;width: 15%;}
 span.imagem_busca{height:100px;position:absolute;width:25%;}
 .search-form{text-align:right;margin-bottom: 1px;background-color:#9E005D;color:#FFFFFF;padding:5px 10px 5px 0;-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;}
 .search-form label{}
