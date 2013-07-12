@@ -8,6 +8,7 @@ Template Name: Todas Materias
 
 <div id="primary" class="content-area meio">
 	<div id="todas-materias" class="site-content internas">
+	<?php get_search_form(); ?>
 	<h1 class="page-title"><?php the_title(); ?></h1>
 			<?php
 				while(have_posts()) : the_post();
@@ -22,6 +23,7 @@ Template Name: Todas Materias
 								} ?>			
 						</figure>
 					<time datetime="<?php the_time('d/m/y G:i'); ?>"><?php the_time('d/m/y G:i'); ?></time>
+					<br>
 					<h3><?php the_title(); ?></h3>
 					<div class="entry-content">
 						<?php

@@ -12,8 +12,8 @@
 					the_post_thumbnail( 'category-pages', array( 'title' => ''.get_the_title().'' ));
 				} ?>			
 		</figure>
-		<h3>
-			<time datetime="<?php the_time('d/m/y G:i'); ?>"><?php the_time('d/m/y G:i'); ?></time><br>
+		<time datetime="<?php the_time('d/m/y G:i'); ?>"><?php the_time('d/m/y G:i'); ?></time><br>
+		<h3>			
 			<?php the_title(); ?>
 		</h3>
 		

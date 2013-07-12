@@ -231,6 +231,8 @@ input {
 	line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 }
 
+time { font-size: small; }
+
 .search-submit {
 	background-color: #f7921e;
 	border: none;
@@ -913,13 +915,11 @@ aside#sidebar_direita #facebook {
 }
 
 .internas article, .busca-pagina article, .nao_encontrado article {
-    /*background-color: green;*/
-    display: inline-block;
+    background-color: green;
 	font-size: 1em;
 	margin: 0 0 10px 10px;
 	padding: 5px 5px 0;
 	text-align: left;
-	width: 100%;
 	.box_transition
 	-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
 	-moz-transition: all 0.3s ease-out;  /* FF4+ */
@@ -941,20 +941,16 @@ aside#sidebar_direita #facebook {
 	border-radius: 5px; 
 }
 
-.internas article figure {
+.img-busca {
 	/*background-color: red;*/
 	float: left;
 	margin-right: 15px;
 }
 
-.internas article h3 {
+.internas article h3, .busca-pagina article h3 {
 	/*background-color: yellow;*/
 	display: inline-block;
 	font-size: 2rem;
-}
-
-.internas article h3 time {
-	font-size: 1.2rem;
 }
 
 figure.img-busca img {
