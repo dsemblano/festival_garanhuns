@@ -5,12 +5,12 @@
 			$args = array( 'post_type' => 'roteiro');
 			$the_query = new WP_Query($args);
 			while ( $the_query->have_posts() ) : $the_query->the_post();
-		?><pre><?php print_r($wp_query->posts); ?></pre>
+		?>
 			<li>
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail( 'slider2', array( 'title' => ''.get_the_title().'' )); // Imagem do Slider ?>
 				</a>
-				<h2 class="titulo_home"><?php get_post_type($the_query->ID); ?></h2>
+				<h2 class="titulo_home">Roteiro</h2>
 				<h3 class="gallery-title titulo_home_desc"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo the_title(); ?></a></h5>
 
 			</li>
