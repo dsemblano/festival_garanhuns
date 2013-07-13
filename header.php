@@ -35,7 +35,7 @@
 			<img id="logo" class="justified" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="Gastro Online logo" />
 			<?php } ?>
 			<h2 class="site-description justified"><?php bloginfo( 'description' ); ?></h2>		
-			<img id="cachecol" class="justified" src="<?php echo get_template_directory_uri(); ?>/assets/cachecol.png" alt="imagem cachecol">
+			<img id="cachecol" src="<?php echo get_template_directory_uri(); ?>/assets/cachecol.png" alt="imagem cachecol">
 		</a>
 	</header><!-- #masthead -->	
 

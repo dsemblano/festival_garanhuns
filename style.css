@@ -228,19 +228,14 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid #ccc;
-	border-color: #ccc #ccc #bbb #ccc;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
+	background: #F7931E;
+    border-color: #F7931E;	
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 button:hover,
 html input[type="button"]:hover,
@@ -673,24 +668,38 @@ header img#cachecol {
 	width: 13%;
 }
 
-/* Busca por taxonomia */
-
 span.imagem_busca {
-	/*background-color: red;*/
-	/*float: left;
-	height: 5px;
-	width: 100%;*/
+	height: 100px;
+	position: absolute;
+	width: 25%;
+}
+
+span.imagem_busca #cachecol_busca_frente {
+	left: -10px;
+	position: absolute;
+	top: -3px;
+	z-index: 3;
+}
+
+span.imagem_busca #cachecol_busca_tras {
+	bottom: 25px;
+	position: absolute;
+	right: 60px;
 }
 
 .search-form {
     text-align: right;
-    background-color: #007CD6;
+    background-color: #9E005D;
 	color: #FFFFFF;
-	height: 40px;
+	height: 30px;
     margin: 20px 0 0;
 	padding: 10px 15px 0;
 	-webkit-border-radius: 0px 0px 15px 15px;
     border-radius: 0px 0px 15px 15px;
+}
+
+.search-form label {
+
 }
 
 .search-form .widget-title {
@@ -999,7 +1008,6 @@ footer#colophon {
 	and (min-width : 1824px) {
 	
 		.site-description { font-size: 3em; top: 40px; }
-		header#masthead { margin-bottom: 20px; }		
 		#primary {
 		min-height: 800px;
 		}
