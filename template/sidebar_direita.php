@@ -5,7 +5,7 @@
 	
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	
-<?php if(is_home()) : ?>
+<?php if( is_home() ) : ?>
 <div id="cloche_home">
 	<article class="flexslider">
 		<ul class="slides">
