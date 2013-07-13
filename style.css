@@ -675,9 +675,9 @@ header img#cachecol {
 
 span.imagem_busca {
 	/*background-color: red;*/
-	float: left;
+	/*float: left;
 	height: 5px;
-	width: 100%;
+	width: 100%;*/
 }
 
 .widget_taxonomy-drill-down {
@@ -820,6 +820,7 @@ h3.titulo_home_desc {
 
 aside#sidebar_direita {
 	/*background-color: black;*/
+	margin-top: 20px;
 	float: right;
 	width: 28%;
 }
@@ -871,7 +872,7 @@ aside#sidebar_direita #facebook {
 	margin-top: 20px;
 }
 
-.page-title {
+.page-title, .entry-title {
     color: #007AD3; 
 	font-family: hvd_comic_serif_proregular;
 	font-size: 2em;
@@ -921,6 +922,10 @@ article.type-post header {
 
 }
 
+.internas, .single-page article.type-post {
+    /*background-color: #FFF;
+	border-radius: 10px 10px 10px 10px;*/
+}
 
 
 footer#colophon {
