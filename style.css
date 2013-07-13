@@ -738,7 +738,7 @@ span.imagem_busca {
 	min-height: 300px;
 }
 
-#primary #content {
+.site-content {
     /*background-color: #C6C6C6;*/
     float: left;
 	width: 70%;
@@ -858,6 +858,18 @@ aside#sidebar_direita #facebook {
 }
 
 #cloche_home {
+
+}
+
+article.type-post {
+	text-align: justify;
+	background-color: red;
+	height: 135px;
+	padding: 5px 25px 1px 5px;
+	transition: all 0.3s ease-out 0s;
+}
+
+article.type-post header {
 
 }
 

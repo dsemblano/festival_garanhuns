@@ -7,7 +7,7 @@ Template Name: Todas Materias
 <?php get_header(); ?>
 
 <h2><?php the_title(); ?></h2>
-<div id="primary" class="content-area">
+<div id="primary" class="content-area meio">
 	<div id="content" class="site-content" role="main">
 			<?php
 				while(have_posts()) : the_post();
@@ -44,6 +44,8 @@ Template Name: Todas Materias
 		<?php endif; ?>
 		
 	</div>
+	<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
+
 </div>
-		
+
 <?php get_footer(); ?>

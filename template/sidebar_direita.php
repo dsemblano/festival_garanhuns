@@ -4,6 +4,7 @@
 	
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	
+<?php if(is_home()) : ?>
 <div id="cloche_home">
 	<article class="flexslider">
 		<ul class="slides">
@@ -29,6 +30,7 @@
 	<h3 class="titulo_home_desc"><?php echo category_description( 5 ); ?></h3>
 	
 </div>
+<?php endif; ?>
 	
 	<div id="facebook">
 	

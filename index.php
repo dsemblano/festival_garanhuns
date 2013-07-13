@@ -40,9 +40,7 @@ get_header(); ?>
 			
 		</div><!-- #content -->
 		
-
-		
-		<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
+		<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita --> 	
 		
 	</div><!-- #primary -->	
 

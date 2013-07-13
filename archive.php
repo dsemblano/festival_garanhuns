@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
+	<div id="primary" class="content-area meio">
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -97,5 +97,5 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</section><!-- #primary -->
-
+<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
 <?php get_footer(); ?>
