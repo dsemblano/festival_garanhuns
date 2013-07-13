@@ -873,6 +873,46 @@ article.type-post header {
 
 }
 
+/* Paginas */
+#todas-materias {
+    text-align: justify;
+	margin-top: 20px;
+}
+
+#todas-materias h2 { 
+	font-family: hvd_comic_serif_proregular;
+	font-size: 2em;
+	margin-bottom: 15px;
+}
+
+#todas-materias  article {
+    display: inline-block;
+	font-size: 1em;
+	margin: 0 0 10px;
+	padding: 5px 5px 0;
+	width: 15%;
+	.box_transition
+	-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+	-moz-transition: all 0.3s ease-out;  /* FF4+ */
+	-ms-transition: all 0.3s ease-out;  /* IE10 */
+	-o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+	transition: all 0.3s ease-out;
+	background-color: transparent;
+}
+
+#todas-materias  article a { color: #534741; }
+
+#todas-materias  article:hover {
+	background-color: #D8D8D8;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+figure.img-busca img {
+	border-radius: 5px;
+}
+
+
 
 footer#colophon {
 	background: url("assets/folhas.png") repeat-x scroll center top / 26em auto transparent;
