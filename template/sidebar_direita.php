@@ -33,7 +33,7 @@
 <?php endif; ?>
 	
 	<div id="facebook">
-	
+		<div class="fb-like-box" data-href="https://www.facebook.com/gastroonline" data-width="350px" data-show-faces="true" data-stream="false" data-show-border="false" data-header="false"></div>
 	</div>
 	
 </aside>
