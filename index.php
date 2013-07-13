@@ -18,18 +18,6 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 		
 		<?php get_search_form(); ?>
-		<?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : ?><?php //endif; ?>
-		
-			<?php /*
-			$args = array( 'post_type' => 'comida', 'posts_per_page' => 10 );
-			$loop = new WP_Query( $args );
-			while ( $loop->have_posts() ) : $loop->the_post();
-				the_title();
-				echo '<div class="entry-content">';
-				the_content();
-				echo '</div>';
-			endwhile; */
-			?>
 			
 			<?php get_template_part('template/roteiro', 'home'); ?>
 			<?php get_template_part('template/experimenta', 'home'); ?>			
@@ -37,8 +25,8 @@ get_header(); ?>
 			
 		</div><!-- #content -->
 		
-		<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita --> 	
+		<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
 		
-	</div><!-- #primary -->	
+	</div><!-- #primary -->
 
 <?php get_footer(); ?>
