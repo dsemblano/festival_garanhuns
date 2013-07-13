@@ -2,23 +2,19 @@
 	<article class="flexslider">
 		<ul class="slides">
 		<?php
-			$args = array(
-			'post_type' => 'roteiro',
-			'posts_per_page' => 10	
-			);
-			query_posts ($args);
-			
-			if(have_posts()) : while(have_posts()) : the_post();
-		?>
+			$args = array( 'post_type' => 'roteiro');
+			$the_query = new WP_Query($args);
+			while ( $the_query->have_posts() ) : $the_query->the_post();
+		?><pre><?php print_r($wp_query->posts); ?></pre>
 			<li>
-				<a href="<?the_permalink(); ?>">
-					<? the_post_thumbnail( 'slider2', array( 'title' => ''.get_the_title().'' )); // Imagem do Slider ?>
+				<a href="<?php the_permalink(); ?>">
+					<?php the_post_thumbnail( 'slider2', array( 'title' => ''.get_the_title().'' )); // Imagem do Slider ?>
 				</a>
-				<h2 class="titulo_home">Roteiro</h2>
-				<h3 class="gallery-title titulo_home_desc"><a href="<?the_permalink(); ?>" title="<? the_title(); ?>"><? echo the_title(); ?></a></h5>
+				<h2 class="titulo_home"><?php get_post_type($the_query->ID); ?></h2>
+				<h3 class="gallery-title titulo_home_desc"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo the_title(); ?></a></h5>
 
 			</li>
-			<?php endwhile;endif; wp_reset_query(); ?>
+			<?php endwhile; wp_reset_postdata(); ?>
 		</ul>
 	</article>
 	
