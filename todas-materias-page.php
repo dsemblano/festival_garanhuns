@@ -7,8 +7,8 @@ Template Name: Todas Materias
 <?php get_header(); ?>
 
 <div id="primary" class="content-area meio">
-	<div id="todas-materias" class="site-content">
-	<h2><?php the_title(); ?></h2>
+	<div id="todas-materias" class="site-content internas">
+	<h1 class="page-title"><?php the_title(); ?></h1>
 			<?php
 				while(have_posts()) : the_post();
 				$myposts = get_posts('numberposts=-1');

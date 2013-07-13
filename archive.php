@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area meio">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content internas" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -60,18 +60,12 @@ get_header(); ?>
 							_e( 'Links', 'garanhuns' );
 
 						else :
-							_e( 'Archives', 'garanhuns' );
+							_e( 'Roteiro', 'garanhuns' );
 
 						endif;
 					?>
 				</h1>
-				<?php
-					// Show an optional term description.
-					$term_description = term_description();
-					if ( ! empty( $term_description ) ) :
-						printf( '<div class="taxonomy-description">%s</div>', $term_description );
-					endif;
-				?>
+
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>

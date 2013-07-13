@@ -874,18 +874,19 @@ article.type-post header {
 }
 
 /* Paginas */
-#todas-materias {
+.internas {
     text-align: justify;
 	margin-top: 20px;
 }
 
-#todas-materias h2 { 
+.page-title {
+    color: #007AD3; 
 	font-family: hvd_comic_serif_proregular;
 	font-size: 2em;
 	margin-bottom: 15px;
 }
 
-#todas-materias  article {
+.internas  article {
     display: inline-block;
 	font-size: 1em;
 	margin: 0 0 10px;
@@ -900,9 +901,9 @@ article.type-post header {
 	background-color: transparent;
 }
 
-#todas-materias  article a { color: #534741; }
+.internas  article a { color: #534741; }
 
-#todas-materias  article:hover {
+.internas  article:hover {
 	background-color: #D8D8D8;
 	-webkit-border-radius: 5px;
 	border-radius: 5px; 
@@ -918,3 +919,74 @@ footer#colophon {
 	background: url("assets/folhas.png") repeat-x scroll center top / 26em auto transparent;
 	height: 65px;
 }
+
+
+/* MEDIA QUERIES */
+
+/* iPads (portrait and landscape) ———– */
+	@media only screen
+	and (min-width : 768px)
+	and (max-width : 1024px) {
+	
+	}
+		
+	/* iPads (landscape) ———– */
+	@media only screen
+	and (min-width : 768px)
+	and (max-width : 1024px)
+	and (orientation : landscape) {
+	}
+	
+	/* iPads (portrait) ———– */
+	@media only screen
+	and (min-width : 768px)
+	and (max-width : 1024px)
+	and (orientation : portrait) {
+	
+	}
+	
+	/* Desktops and laptops ———– */
+	@media only screen
+	and (min-width : 1224px) {
+	}
+	
+		/* Mac Pro */
+	@media only screen
+	and (width : 1280px) {
+	}
+	
+
+	
+	/* Large screens ———– */
+	@media only screen
+	and (min-width : 1824px) {
+	
+		#primary {
+		min-height: 800px;
+		}
+	}
+	
+	/* Smartphones, iPhone 3G,  (portrait and landscape) ———– */
+	@media only screen
+	and (min-width : 320px)
+	and (max-width : 480px) {
+	
+	
+	/* Smartphones (landscape) ———– */
+	@media only screen
+	and (min-width : 321px) {	
+
+	}
+	
+	/* Smartphones (portrait) ———– */
+	@media only screen
+	and (max-width : 320px) {
+
+	}
+	
+	/* iPhone 4 ———– */
+	@media
+	only screen and (-webkit-min-device-pixel-ratio : 1.5),
+	only screen and (min-device-pixel-ratio : 1.5) {
+	
+	}
