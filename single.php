@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div id="content" class="site-content single-page" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -19,7 +19,9 @@ get_header(); ?>
 		<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
+	
+	<?php get_template_part('template/sidebar_direita'); ?><!-- #sidebar direita -->
+	
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

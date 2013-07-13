@@ -664,7 +664,6 @@ header#masthead {
 	-ms-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
 	-webkit-animation: animatedBackground 40s linear infinite;
-	height: 130px;
 }
 
 header img#cachecol {
@@ -861,17 +860,10 @@ aside#sidebar_direita #facebook {
 
 }
 
-article.type-post {
-	text-align: justify;
-	background-color: red;
-	height: 135px;
-	padding: 5px 25px 1px 5px;
-	transition: all 0.3s ease-out 0s;
-}
+/* Carousel */
 
-article.type-post header {
-
-}
+.touchcarousel-item { padding-bottom: 20px !important; }
+.touchcarousel-item .tc-block { width: 170% !important; }
 
 /* Paginas */
 .internas {
@@ -911,6 +903,22 @@ article.type-post header {
 
 figure.img-busca img {
 	border-radius: 5px;
+}
+
+article.type-post {
+	text-align: justify;
+	padding: 5px 25px 1px 5px;
+	transition: all 0.3s ease-out 0s;
+}
+
+article.type-post header {
+
+}
+
+/* Matérias */
+
+.single-page  {
+
 }
 
 
@@ -961,6 +969,8 @@ footer#colophon {
 	@media only screen
 	and (min-width : 1824px) {
 	
+		.site-description { font-size: 3em; top: 40px; }
+		header#masthead { margin-bottom: 20px; }		
 		#primary {
 		min-height: 800px;
 		}
