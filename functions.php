@@ -105,10 +105,10 @@ function garanhuns_scripts() {
 	if(is_home()) {
 		wp_enqueue_script('flexslider', get_bloginfo('stylesheet_directory').'/js/jquery.flexslider-min.js', array('jquery'));
 		wp_enqueue_script('flexslider-init', get_bloginfo('stylesheet_directory').'/js/flexslider-init.js', array('jquery', 'flexslider'));		
-		wp_enqueue_script('jquery-jcarousel', get_bloginfo('stylesheet_directory').'/js/jquery.jcarousel.js', array('jquery'));
-		wp_enqueue_script('jcarousel-init', get_bloginfo('stylesheet_directory').'/js/jcarousel-init.js', array('jquery'));
+		//wp_enqueue_script('jquery-jcarousel', get_bloginfo('stylesheet_directory').'/js/jquery.jcarousel.js', array('jquery'));
+		//wp_enqueue_script('jcarousel-init', get_bloginfo('stylesheet_directory').'/js/jcarousel-init.js', array('jquery'));
 		wp_enqueue_style('flexslider', get_bloginfo('stylesheet_directory').'/flexslider.css');
-		wp_enqueue_style('skin', get_bloginfo('stylesheet_directory').'/skin.css');
+		//wp_enqueue_style('skin', get_bloginfo('stylesheet_directory').'/skin.css');
 
 	}
 

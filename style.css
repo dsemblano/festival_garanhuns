@@ -828,11 +828,13 @@ article.flexslider .gallery-title {
 }
 
 #cloche_home h3.titulo_home_desc {
-
+    background: url("assets/wave_cloche.png") repeat-x scroll 0 0 #DFC598;
+	padding: 15px 0 10px 10px;
 }
 
 #experimenta_home h3.titulo_home_desc {
-
+    background: url("assets/wave_experimenta.png") repeat-x scroll 0 0 #DFC598;
+	padding: 15px 0 10px 10px;
 }
 
 .titulo_home {
