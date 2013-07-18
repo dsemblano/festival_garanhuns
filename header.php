@@ -31,7 +31,6 @@
 
   ga('create', 'UA-42528965-1', 'gastroonline.com.br');
   ga('send', 'pageview');
-
 </script>
 </head>
 
