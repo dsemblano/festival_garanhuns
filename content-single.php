@@ -11,6 +11,8 @@
 		<div class="entry-meta">
 			<?php garanhuns_posted_on(); ?>
 		</div><!-- .entry-meta -->
+		<div class="fb-like" data-href=<?php the_permalink()?> data-send="true" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+	
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

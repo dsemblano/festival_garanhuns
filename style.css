@@ -51,6 +51,7 @@ html {
 body {
 	background: #fff;
 }
+
 article,
 aside,
 details,
@@ -663,16 +664,14 @@ body {
 		}
 
 header#masthead {
-	background-image: url("assets/nuvem.png");
-	/*background-color: red;*/
+	/*background-image: url("assets/nuvem.png");
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 	background-size: 17em auto;
-	padding-left: 4%;
 	animation: animatedBackground 40s linear infinite;
 	-ms-animation: animatedBackground 40s linear infinite;
 	-moz-animation: animatedBackground 40s linear infinite;
-	-webkit-animation: animatedBackground 40s linear infinite;
+	-webkit-animation: animatedBackground 40s linear infinite;*/
 }
 
 .site-branding {
@@ -682,13 +681,15 @@ header#masthead {
 }
 
 #logo {
-	margin: 1em 3em 0 0;
+	margin: 1em 3em 0 4em;
 	width: 15%;
 }
 
 header img#cachecol {
-	float: right;
-	width: 13%;
+top:60px;
+position: absolute;
+right: 0;
+width: 30%;
 }
 
 span.imagem_busca {
@@ -750,13 +751,14 @@ span.imagem_busca #cachecol_busca_tras {
 }
 
 .site-description {
-	color: #EE811F;
-	display: inline-block;
-	font-family: 'sofiaregular';
-	font-size: 3rem;
-	font-weight: bold;
-	letter-spacing: 0.2rem;
-	text-align: left;
+color: #EE811F;
+display: inline-block;
+font-family: Times New Roman;
+font-size: 3rem;
+font-style: italic;
+font-weight: bold;
+line-height: 30px;
+text-align: left;
 }
 
 #primary {
@@ -851,7 +853,6 @@ aside#sidebar_direita {
 }
 
 aside#sidebar_direita #patrocinio {
-	background-color: blueviolet;
 	height: 130px;
 	margin-bottom: 15px;
 }
@@ -981,6 +982,10 @@ article.type-post header {
 
 }
 
+.entry-meta {
+    margin-bottom: 10px;
+}
+
 /* Matérias */
 
 .single-page, .internas, .busca-pagina {
@@ -1036,10 +1041,39 @@ article.type-post header {
     background-color: #FFFFFF;
 }
 
+.fb-like span{ overflow:visible !important; width:450px !important; margin-right:-375px; z-index: 9999; }
+
 
 footer#colophon {
 	background: url("assets/folhas.png") repeat-x scroll center top / 26em auto transparent;
 	height: 65px;
+}
+
+/* RETIRAR DEPOIS DE VER PROBLEMA NO AR */
+.jcarousel-skin-tango {
+height: 100%;
+text-align: justify;
+}
+
+.jcarousel-skin-tango li {
+display: inline-block;
+padding: 5px 0;
+text-align: center;
+width: 33%;
+}
+
+.jcarousel-skin-tango li h3{
+'	margin-left: 3px;
+text-align: left;
+text-indent: 7px;
+}
+
+.jcarousel-skin-tango li img {
+	width: 95%;
+}
+
+.jcarousel-skin-tango li:last-child {
+
 }
 
 
@@ -1086,7 +1120,11 @@ footer#colophon {
 	@media only screen
 	and (min-width : 1824px) {
 	
-		.site-description { font-size: 3em; top: 40px; }
+		header img#cachecol {
+		    width: 25% !important;
+		}
+		
+		.site-description { font-size: 3em; line-height: 45px; }
 		#primary {
 		min-height: 800px;
 		}		

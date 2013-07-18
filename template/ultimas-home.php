@@ -3,8 +3,7 @@
 
 <ul id="mycarousel" class="jcarousel-skin-tango">
 	<?php
-		while(have_posts()) : the_post();
-		$myposts = get_posts('numberposts=-1');
+		$myposts = get_posts('numberposts=3');
 		foreach($myposts as $post) :
 	?>
 
@@ -16,6 +15,6 @@
 			<h3><?php the_title(); ?></h3>
 		</a>
 	</li>
-	<?php endforeach; endwhile; ?>
+	<?php endforeach; ?>
 		
 </ul>
