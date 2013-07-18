@@ -806,22 +806,39 @@ article.flexslider .gallery-title {
 	background: url("assets/bg_direction_nav.png") no-repeat scroll 0 0 transparent !important;
 }
 
-#roteiro_home  {
+#roteiro_home h2.titulo_home {
+	background-color: #94BC99;
+}
 
+#experimenta_home h2.titulo_home {
+	background-color: #2B4567;
+}
+
+#cloche_home h2.titulo_home {
+	background-color: #267391;
 }
 
 #experimenta_home {
 	float: right;
 }
 
-.titulo_home {
-	color: #FFFFFF;
-	padding: 5px 0 5px 10px;
-	text-transform: uppercase;
+#roteiro_home h3.titulo_home_desc {
+	background: url("assets/roteiro_onda.png") repeat-x scroll center top #DFC598;
+	padding: 15px 0 10px 10px;
 }
 
-h2.titulo_home {
-	background-color: #104367;
+#cloche_home h3.titulo_home_desc {
+
+}
+
+#experimenta_home h3.titulo_home_desc {
+
+}
+
+.titulo_home {
+	color: #FFFFFF;
+    padding: 3px 0 0 10px;
+	text-transform: uppercase; 
 }
 
 .titulo_home a { color: #534741; }
